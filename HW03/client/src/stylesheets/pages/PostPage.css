@@ -1,0 +1,23 @@
+#post-body {
+  padding-left: 1.5em;
+  padding-top: 1em;
+  width: 60%;
+}
+
+footer {
+  border-top: 1px solid rgb(198, 198, 198);
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+#comment-button {
+  padding: 1em;
+}
+
+.buttons.comment:hover,
+.buttons.comment:active {
+  background-color: #960001;
+  cursor: pointer;
+}

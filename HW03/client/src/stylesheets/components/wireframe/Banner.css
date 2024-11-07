@@ -1,0 +1,22 @@
+#banner {
+  display: flex;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-weight: 900;
+  justify-content: space-between;
+  border-style: none none solid;
+  border-bottom-width: 0.1mm;
+  color: #ff4500;
+  border-color: rgb(198, 198, 198);
+  align-items: center;
+}
+
+#banner h3 {
+  margin: 0;
+  font-size: 2em;
+}

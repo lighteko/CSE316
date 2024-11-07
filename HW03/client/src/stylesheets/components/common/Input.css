@@ -1,0 +1,47 @@
+textarea {
+  font: inherit;
+  outline: none;
+  resize: vertical;
+  min-height: 10em;
+}
+
+input {
+  font: inherit;
+  outline: none;
+}
+
+.form {
+  width: 60%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-left: 1em;
+  font-size: 0.85em;
+  height: 2.5em;
+  border-radius: 1em;
+  border: 0.01mm solid #d1d1d0;
+  background-color: #fefffe;
+}
+
+.form:focus {
+  border: 0.01mm solid #363636;
+  background-color: #f6f8f9;
+}
+
+.search {
+  width: 40em;
+  height: 40px;
+  padding-left: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 1.5em;
+  border-style: none;
+  background-color: #e5eaef;
+  font-weight: 400;
+}
+
+.search:focus,
+.search:hover {
+  outline: none;
+  border: none;
+  background-color: #dce0e3;
+}

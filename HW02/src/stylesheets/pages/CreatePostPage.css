@@ -1,0 +1,11 @@
+#dropdown-linkflair {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buttons.clear:hover,
+.buttons.clear:active {
+  background-color: #dbe4e9;
+  color: black;
+}

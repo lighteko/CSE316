@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+main {
+  width: 85%;
+  height: 100%;
+}
+
+#required {
+  font-weight: 300;
+  font-size: 0.9em;
+  padding-bottom: 0.5em;
+}
+
+#page-body {
+  width: 100%;
+  display: block;
+  height: 80vh;
+  overflow: auto;
+}
+
+.create {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}

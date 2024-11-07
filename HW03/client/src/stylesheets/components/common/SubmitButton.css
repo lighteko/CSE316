@@ -1,0 +1,26 @@
+.buttons.submit {
+  background-color: #0a449b;
+  color: white;
+  border: none;
+  border-radius: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  font-weight: 400;
+  width: 10em;
+  height: 35px;
+}
+
+.buttons.submit:disabled,
+.buttons.submit:disabled:hover,
+.buttons.submit:disabled:active {
+  background-color: #f3f3f3;
+  color: #b7b7b7;
+  cursor: not-allowed;
+}
+
+.buttons.submit:hover,
+.buttons.submit:active {
+  background-color: #062759;
+  cursor: pointer;
+}

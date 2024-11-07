@@ -1,0 +1,13 @@
+.buttons {
+  font-size: 0.85em;
+  font-weight: 400;
+  border: none;
+  background-color: #e5eaef;
+}
+
+.buttons:hover,
+.buttons:active {
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  border-style: none none solid;
+  border-bottom-width: 0.1mm;
+  border-color: rgb(198, 198, 198);
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header #timestamp {
+  font-size: 0.8em;
+}

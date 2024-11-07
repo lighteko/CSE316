@@ -1,0 +1,13 @@
+.comment-card {
+  padding: 1em;
+}
+
+#cmtcard-username {
+  font-weight: bold;
+}
+
+.buttons.reply:hover,
+.buttons.reply:active {
+  background-color: #960001;
+  cursor: pointer;
+}

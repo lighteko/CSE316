@@ -1,0 +1,44 @@
+.card {
+  width: 70%;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 1em;
+  border: 0;
+  border-bottom: 0.01mm solid #d2d2d2;
+}
+
+.card:hover,
+.card:active {
+  cursor: pointer;
+  background-color: #f6f8f9;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3em;
+  font-weight: 300;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+.card-content {
+  font-weight: 300;
+  color: grey;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  font-weight: 300;
+}
